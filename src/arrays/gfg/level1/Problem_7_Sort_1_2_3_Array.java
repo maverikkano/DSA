@@ -1,11 +1,8 @@
 package arrays.gfg.level1;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-
 /**
- * @author abhishek @ url https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
+ * @author abhishek 
+ * @url https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
  * @approach Make 4 partitions in the array, 0-sorted, 1-sorted, 2-sorted & unsorted. 
  * 			 Shrink unsorted part with each iteration. Take mid as cursor.
  * 			 If 0 encountered: replace low with cursor(mid), and increment both low & mid.
