@@ -2,6 +2,7 @@ package stack.udemy.LLImpl;
 
 import java.util.LinkedList;
 
+
 public class LLStack {
 	LinkedList<Employee> stack;
 	
