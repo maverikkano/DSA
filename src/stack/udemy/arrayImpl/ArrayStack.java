@@ -3,6 +3,7 @@ package stack.udemy.arrayImpl;
 import java.util.EmptyStackException;
 
 public class ArrayStack {
+
 	
 	private Employee[] stack;
 	private int top;	// next available position
