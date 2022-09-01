@@ -45,4 +45,32 @@ public class TreeNode {
     public TreeNode getRight() {
         return right;
     }
+
+    public void traverseInOrder(){
+        if(left != null)
+            left.traverseInOrder();
+
+        System.out.print(data+" ");
+
+        if(right != null)
+            right.traverseInOrder();
+    }
+
+    public void traversePreOrder(){
+        System.out.print(data+" ");
+        if(left != null)
+            left.traversePreOrder();
+        if(right != null)
+            right.traversePreOrder();
+    }
+
+    public void traversePostOrder(){
+        if(left != null)
+            left.traversePreOrder();
+
+        if(right != null){
+            right.traversePostOrder();
+        }
+        System.out.print(data+" ");
+    }
 }

@@ -16,5 +16,9 @@ public class Driver {
         bst.insert(26);
         bst.insert(22);
         bst.insert(32);
+
+        bst.traverseInOrder();
+        bst.traversePreOrder();
+        bst.traversePostOrder();
     }
 }
