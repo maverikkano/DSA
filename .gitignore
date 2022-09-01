@@ -1,3 +1,7 @@
 
 *.class
 *.class
+*.class
+.classpath
+.idea/fileColors.xml
+.idea/vcs.xml
