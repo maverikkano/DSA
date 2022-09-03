@@ -85,6 +85,14 @@ public class Tree {
             else if (subtreeRoot.getRight() == null) {
                 return subtreeRoot.getLeft();
             }
+
+            // case 3: node has 2 children
+            // replace VALUE of the node to be deleted with left's max or right's min
+//            subtreeRoot.setData(subtreeRoot.getLeft().max());
+            subtreeRoot.setData(subtreeRoot.getRight().min());
+
+//            subtreeRoot.setLeft(delete(subtreeRoot.getLeft(), subtreeRoot.getData()));
+            subtreeRoot.setRight(delete(subtreeRoot.getRight(), subtreeRoot.getData()));
         }
 
         return subtreeRoot;
