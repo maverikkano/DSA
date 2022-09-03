@@ -20,5 +20,15 @@ public class Driver {
         bst.traverseInOrder();
         bst.traversePreOrder();
         bst.traversePostOrder();
+
+        System.out.println("Get 27: "+bst);
+
+        System.out.println("Min: "+ bst.min());
+        System.out.println("Max: "+ bst.max());
+        System.out.println("Dummy Min: "+ new Tree().min());
+        System.out.println("Dummy Max: "+ new Tree().max());
+
+        System.out.println("Delete value 22: "+bst.delete(22));
+        bst.traverseInOrder();
     }
 }
