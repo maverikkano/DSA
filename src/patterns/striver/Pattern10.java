@@ -1,19 +1,24 @@
-package patterns.kk;
+package patterns.striver;
 
 import java.util.Scanner;
 
 /* 
  * @url https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/
 
-1
-01
-101
-0101
-10101
-010101
+     *
+     **
+     *** 
+     ****
+     *****
+     ******  
+     *****
+     ****
+     ***    
+     **
+     *
  
 */
-public class Pattern11 {
+public class Pattern10 {
     public static void main(String[] args) {
         
         Scanner in = new Scanner(System.in);
@@ -21,17 +26,24 @@ public class Pattern11 {
         System.out.println("Enter n: ");
         int n = in.nextInt();
 
-        createPattern11(n);
+        createPattern10(n);
         
         in.close();
     }
 
-    private static void createPattern11(int n) {
+    private static void createPattern10(int n) {
         
         for (int i = 1; i < n; i++) {
             for (int j = 1; j <= i; j++) {
-                int rem = (i+j+1)%2;
-                System.out.print(rem);
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int i = n; i >= 1; i--) {
+            
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
             System.out.println();
         }

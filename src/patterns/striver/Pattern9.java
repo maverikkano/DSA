@@ -1,4 +1,4 @@
-package patterns.kk;
+package patterns.striver;
 
 import java.util.Scanner;
 
