@@ -1,4 +1,4 @@
-package basics.striver.NoOfDigits;
+package basics.striver._1_NoOfDigits;
 
 import java.util.Scanner;
 
