@@ -1,10 +1,10 @@
-// https://leetcode.com/problems/reverse-integer/
+// https://leetcode.com/problems/palindrome-number/submissions/1127524751/
 
-package basics.striver._2_ReverseInteger;
+package basics.striver._3_Palindrome;
 
 import java.util.Scanner;
 
-public class ReverseInteger {
+public class Palindrome {
     public static void main(String[] args) {
             
             Scanner in = new Scanner(System.in);
@@ -12,12 +12,16 @@ public class ReverseInteger {
             System.out.println("Enter n: ");
             int n = in.nextInt();
     
-            int count = reverse(n);
-            // int count = reverse(Integer.MAX_VALUE + 1000);
+            boolean resultBool = isPalindrome(n);
             
-            System.out.println("Count:"+count);
+            System.out.println("resultBool:"+resultBool);
     
             in.close();
+    }
+
+    private static boolean isPalindrome(int n) {
+        
+        return n == reverse(n);
     }
 
     public static int reverse(int n) {
@@ -39,4 +43,5 @@ public class ReverseInteger {
 
         return reversedInt;
     }
+    
 }
