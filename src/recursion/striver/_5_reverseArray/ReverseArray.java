@@ -7,6 +7,9 @@ import java.util.Scanner;
 * 2. Recurrence Relation : f(n) = swap(start,end) + f(start-1,end-1);
 * 3. Tree & Stack drawn: PFA
 * 4. Base condition: if(start >= end) return arr
+* 
+* Time complexity: O(n)
+* Space complexity: O(1)
 */
 
 public class ReverseArray {

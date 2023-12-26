@@ -7,6 +7,9 @@ import java.util.Scanner;
 * 2. Recurrence Relation : f(n) = sysout(n) + f(n-1); for descending; f(n) = f(n-1) + sysout(n); for ascending
 * 3. Tree & Stack drawn (Same as PrintNTimes)
 * 4. Base condition: if(n<1)
+* 
+* Time complexity: O(n)
+* Space complexity: O(n)
 */
 
 public class AscendingDescendingPrint {

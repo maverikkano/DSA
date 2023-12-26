@@ -2,6 +2,15 @@ package recursion.striver._6_Palindrome;
 
 import java.util.Scanner;
 
+/*
+* 1. Every step same -> Recursive possible
+* 2. Recurrence Relation : f(min+n) == f(max-n)
+* 3. Tree & Stack drawn: PFA
+* 4. Base condition: if(start >= end)   return true;
+* 
+* Time complexity: O(n)
+* Space complexity: O(1)
+*/
 public class Palindrome {
     public static void main(String[] args) {
             

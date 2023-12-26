@@ -7,6 +7,9 @@ import java.util.Scanner;
 * 2. Recurrence Relation : f(n) = n * f(n-1);
 * 3. Tree & Stack drawn (Same as sumOfnNumbers)
 * 4. Base condition: if(n==1)
+*
+* Time complexity: O(N)
+* Space complexity: O(N)
 */
 
 public class Factorial {

@@ -7,6 +7,9 @@ import java.util.Scanner;
 * 2. Recurrence Relation : f(n) = n + f(n-1);
 * 3. Tree & Stack drawn (PFA)
 * 4. Base condition: if(n==1)
+*
+* Time Complexity: O(n)
+* Space Complexity: O(n)
 */
 public class SumOfnNumbers {
     public static void main(String[] args) {
