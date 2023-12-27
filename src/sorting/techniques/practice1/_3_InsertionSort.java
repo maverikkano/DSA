@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sorting.techniques;
+package sorting.techniques.practice1;
 
 /**
  * @author abhishek

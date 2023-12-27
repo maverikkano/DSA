@@ -17,7 +17,7 @@ public class FibonacciTest {
     }
 
     @Test
-    public void testFibonacci() {
+    public void testFibonacci2() {
 
         int input = 2;
         int expected = 2;
@@ -28,7 +28,7 @@ public class FibonacciTest {
     }
 
     @Test
-    public void testFibonacci() {
+    public void testFibonacci3() {
 
         int input = 3;
         int expected = 3;
@@ -39,7 +39,7 @@ public class FibonacciTest {
     }
 
     @Test
-    public void testFibonacci() {
+    public void testFibonacci4() {
 
         int input = 4;
         int expected = 5;
@@ -50,7 +50,7 @@ public class FibonacciTest {
     }
 
     @Test
-    public void testFibonacci() {
+    public void testFibonacci5() {
 
         int input = 7;
         int expected = 21;
